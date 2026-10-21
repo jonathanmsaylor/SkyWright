@@ -1,5 +1,11 @@
 # Skywright maintenance
 
+## Public GitHub source snapshot — 2026-10-21
+
+Repository: https://github.com/jonathanmsaylor/SkyWright . Jonathan explicitly chose to keep it public and upload code with licensed assets excluded. The public checkout is `Builds/GitHub_PublicSource`, branch `main`; it has a separate Git history extending the repository's original README commit. The full working project and its private asset-containing history remain in this folder and must not be pushed to the public repository.
+
+The public snapshot includes current gameplay/editor scripts, original shader source, Unity settings/packages, bootstrap scenes, wind prefabs/material and documentation. Binary art, licensed assets and baked derivatives, imported animations, recordings, builds, private evidence, personal saves and credentials are omitted. Read the public `README.md` and `PUBLIC_ASSETS.md` for restore requirements: it is a source snapshot, not the complete playable project. Local export tooling/manifests are under ignored `Builds`; inspect the allowlist and scan for credentials/licensed content before updating the public checkout. Do not connect the original private history to the public remote as a routine push.
+
 ## Wind Magic visual overhaul — 2026-10-20
 
 Current review: `Builds/WindMagic_Preview/Skywright.exe -visualqa`; Sentinel counterpart: `Builds/WindMagic_Combat/StoneSentinelCombat.exe`. Existing Visual Preview, Sentinel combat and static model viewer are retained. The island review must use `-visualqa` to keep any user-initiated saves in the isolated slot. Current report and recordings: `ArtSource/WindMagic/REPORT.md`.
