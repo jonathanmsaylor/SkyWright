@@ -1,0 +1,45 @@
+# Unity-generated state and local builds
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]serSettings/
+Builds/
+Evidence/
+.vs/
+*.csproj
+*.sln
+
+# Private / licensed assets are restored locally, never committed here.
+Assets/ALP_Assets/
+Assets/ALP_Assets.meta
+ArtSource/**/ImportedAnimations/
+*.fbx
+*.FBX
+*.blend
+*.blend1
+*.glb
+*.gltf
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.tif
+*.tiff
+*.hdr
+*.exr
+*.wav
+*.mp3
+*.ogg
+*.avi
+*.mp4
+*.unitypackage
+
+# Private environment, signing and generated account/task data
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*cost-ledger*.json
